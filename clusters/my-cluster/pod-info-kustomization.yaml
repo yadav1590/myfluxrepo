@@ -8,6 +8,6 @@ spec:
  path: ./kustomize
  prune: true
  sourceRef:
- kind: GitRepository
- name: podinfo
+   kind: GitRepository
+   name: podinfo
  targetNamespace: default
